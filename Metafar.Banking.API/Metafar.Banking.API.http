@@ -1,0 +1,6 @@
+@Metafar.Banking.API_HostAddress = http://localhost:5062
+
+GET {{Metafar.Banking.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

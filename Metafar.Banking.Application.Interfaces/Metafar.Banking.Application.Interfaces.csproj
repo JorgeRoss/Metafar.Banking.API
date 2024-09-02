@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Metafar.Banking.Application.DTO\Metafar.Banking.Application.DTO.csproj" />
+    <ProjectReference Include="..\Metafar.Banking.Cross.Common\Metafar.Banking.Cross.Common.csproj" />
+    <ProjectReference Include="..\Metafar.Banking.Domain\Metafar.Banking.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

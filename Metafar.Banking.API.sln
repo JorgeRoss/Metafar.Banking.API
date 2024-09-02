@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metafar.Banking.API", "Metafar.Banking.API\Metafar.Banking.API.csproj", "{00E0F2A8-95E0-4BBD-9C70-11206AC91F73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{239B0F82-2681-40D4-B800-8A76913F03D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DBDBA67E-0534-4B82-8EB3-C445FA73C976}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{871E3919-3B6A-46D8-8F01-67C76DD38D88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{57182FFD-ED97-426E-9098-98F78CD65011}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cross", "Cross", "{EAA40EBA-7619-4A5A-BCCA-AE3460D3FC34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2668A870-E18D-4E01-B005-990A5C15E3BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metafar.Banking.Domain", "Metafar.Banking.Domain\Metafar.Banking.Domain.csproj", "{AC161174-2AD1-4042-B7B0-CC7C11CD165C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metafar.Banking.Persistence", "Metafar.Banking.Persistence\Metafar.Banking.Persistence.csproj", "{2B41FBC5-C205-4869-A3D1-8C14ABC2BD11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metafar.Banking.Application.Interfaces", "Metafar.Banking.Application.Interfaces\Metafar.Banking.Application.Interfaces.csproj", "{A52AE6D2-D933-4EE2-9FD6-2D985C5AD4F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metafar.Banking.Application.DTO", "Metafar.Banking.Application.DTO\Metafar.Banking.Application.DTO.csproj", "{063B6F3F-6229-4019-B640-99FEC8D1F14F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metafar.Banking.Application.UseCases", "Metafar.Banking.Application.UseCases\Metafar.Banking.Application.UseCases.csproj", "{AE94E608-1BFF-4C8D-8C1C-587B3173A52F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metafar.Banking.Cross.Common", "Metafar.Banking.Cross.Common\Metafar.Banking.Cross.Common.csproj", "{00488009-F1FA-4E21-8533-7D255ADFD32D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metafar.Banking.Services.API.Tests", "Metafar.Banking.Services.API.Tests\Metafar.Banking.Services.API.Tests.csproj", "{1ABFCBCC-815F-42CE-B599-2F2926514A77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00E0F2A8-95E0-4BBD-9C70-11206AC91F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E0F2A8-95E0-4BBD-9C70-11206AC91F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E0F2A8-95E0-4BBD-9C70-11206AC91F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E0F2A8-95E0-4BBD-9C70-11206AC91F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC161174-2AD1-4042-B7B0-CC7C11CD165C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC161174-2AD1-4042-B7B0-CC7C11CD165C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC161174-2AD1-4042-B7B0-CC7C11CD165C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC161174-2AD1-4042-B7B0-CC7C11CD165C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B41FBC5-C205-4869-A3D1-8C14ABC2BD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B41FBC5-C205-4869-A3D1-8C14ABC2BD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B41FBC5-C205-4869-A3D1-8C14ABC2BD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B41FBC5-C205-4869-A3D1-8C14ABC2BD11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52AE6D2-D933-4EE2-9FD6-2D985C5AD4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52AE6D2-D933-4EE2-9FD6-2D985C5AD4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52AE6D2-D933-4EE2-9FD6-2D985C5AD4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52AE6D2-D933-4EE2-9FD6-2D985C5AD4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063B6F3F-6229-4019-B640-99FEC8D1F14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063B6F3F-6229-4019-B640-99FEC8D1F14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063B6F3F-6229-4019-B640-99FEC8D1F14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063B6F3F-6229-4019-B640-99FEC8D1F14F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE94E608-1BFF-4C8D-8C1C-587B3173A52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE94E608-1BFF-4C8D-8C1C-587B3173A52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE94E608-1BFF-4C8D-8C1C-587B3173A52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE94E608-1BFF-4C8D-8C1C-587B3173A52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00488009-F1FA-4E21-8533-7D255ADFD32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00488009-F1FA-4E21-8533-7D255ADFD32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00488009-F1FA-4E21-8533-7D255ADFD32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00488009-F1FA-4E21-8533-7D255ADFD32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ABFCBCC-815F-42CE-B599-2F2926514A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ABFCBCC-815F-42CE-B599-2F2926514A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ABFCBCC-815F-42CE-B599-2F2926514A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ABFCBCC-815F-42CE-B599-2F2926514A77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00E0F2A8-95E0-4BBD-9C70-11206AC91F73} = {57182FFD-ED97-426E-9098-98F78CD65011}
+		{AC161174-2AD1-4042-B7B0-CC7C11CD165C} = {DBDBA67E-0534-4B82-8EB3-C445FA73C976}
+		{2B41FBC5-C205-4869-A3D1-8C14ABC2BD11} = {871E3919-3B6A-46D8-8F01-67C76DD38D88}
+		{A52AE6D2-D933-4EE2-9FD6-2D985C5AD4F9} = {239B0F82-2681-40D4-B800-8A76913F03D9}
+		{063B6F3F-6229-4019-B640-99FEC8D1F14F} = {239B0F82-2681-40D4-B800-8A76913F03D9}
+		{AE94E608-1BFF-4C8D-8C1C-587B3173A52F} = {239B0F82-2681-40D4-B800-8A76913F03D9}
+		{00488009-F1FA-4E21-8533-7D255ADFD32D} = {EAA40EBA-7619-4A5A-BCCA-AE3460D3FC34}
+		{1ABFCBCC-815F-42CE-B599-2F2926514A77} = {2668A870-E18D-4E01-B005-990A5C15E3BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBFCB23F-94C1-4A84-B8BC-254442636AD5}
+	EndGlobalSection
+EndGlobal

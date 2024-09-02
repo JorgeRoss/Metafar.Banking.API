@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.9.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.1" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Metafar.Banking.Application.DTO\Metafar.Banking.Application.DTO.csproj" />
+    <ProjectReference Include="..\Metafar.Banking.Application.Interfaces\Metafar.Banking.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Metafar.Banking.Cross.Common\Metafar.Banking.Cross.Common.csproj" />
+  </ItemGroup>
+
+</Project>
